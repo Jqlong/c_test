@@ -14,6 +14,11 @@ int main() {
 	printf("%d\n", len1);  //3
 	printf("%d\n", len2);  //15
 	printf("%d\n", len3);  //3
+
+	printf("c:\\test\n");
+	printf("\a\a\a");
+
+	printf("%c\n", '\'');
 	return 0;
 
 }
