@@ -18,7 +18,7 @@ int main() {
 	printf("c:\\test\n");
 	printf("\a\a\a");
 
-	printf("%c\n", '\'');
+	printf("%c\n", '\''); 
 	return 0;
 
 }
