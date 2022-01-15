@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <string.h>
-int main() {
+//int main() {
 //
 //	char arr1[] = "abc";
 //	char arr2[] = { 'a','b','c' };
@@ -23,18 +23,48 @@ int main() {
 //	printf("%c\n", '\'');
 //	return 0;
 
-	int input = 0;
+//	int input = 0;
+//
+//	printf("你要加入bit吗？>");
+//	printf("你要好好学习吗：>\n");
+//
+//	scanf("%d", &input);
+//	if (input == 0) {
+//		printf("拿个offer\n");
+//	}
+//	else {
+//		printf("回家卖红薯\n");
+//	}
+//	return 0;
+//
+//}
 
-	printf("你要加入bit吗？>");
-	printf("你要好好学习吗：>\n");
+int main() {
 
-	scanf("%d", &input);
-	if (input == 0) {
-		printf("拿个offer\n");
+	/*int line = 0;
+	while (line < 10000)
+	{
+		printf("代码行数：%d\n", line);
+		line++;
 	}
-	else {
-		printf("回家卖红薯\n");
-	}
+	if (line == 10000) {
+		printf("好offer\n");
+	}*/
+
+	//int num1 = 0;
+	//int num2 =0;
+	//scanf("%d%d", &num1, &num2);
+	//int sum = add(num1, num2);
+	//printf("%d", sum);
+
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	char ch[5] = { 'a','b','c' };
+
+
 	return 0;
-
 }
+
+//int add(int nume1, int num2) {
+//	int sum = nume1 + num2;
+//	return sum;
+//}
