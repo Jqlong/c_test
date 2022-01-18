@@ -39,7 +39,7 @@
 //
 //}
 
-int main() {
+//int main() {
 
 	/*int line = 0;
 	while (line < 10000)
@@ -57,14 +57,55 @@ int main() {
 	//int sum = add(num1, num2);
 	//printf("%d", sum);
 
-	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
-	char ch[5] = { 'a','b','c' };
+	//int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	//char ch[5] = { 'a','b','c' };
 
 
-	return 0;
-}
+//	return 0;
+//}
 
 //int add(int nume1, int num2) {
 //	int sum = nume1 + num2;
 //	return sum;
 //}
+
+//操作符
+
+//typedef unsigned int u_int;
+//
+//void test() {
+//
+//	//int i = 1;
+//	static int i = 1;
+//	i++;
+//	printf("%d ", i);
+//}
+//
+//int main() {
+//
+//	//int i = 0;
+//	//~按位取反(二进制)
+//	//printf("%d\n", ~i);
+//
+//
+//	//等价
+//	//unsigned int num = 100;
+//	u_int num = 100;
+//	int i = 0;
+//	while (i < 10)
+//	{
+//		test();
+//		i++;
+//	}
+//	return 0;
+//}
+
+
+//define - 定义宏
+#define add(x,y) ((x)+(y))
+
+int main() {
+	//printf("%d", add(2, 3));
+	printf("%d", add(2, 3));
+	return 0;
+}
